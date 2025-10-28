@@ -1,5 +1,5 @@
 # Proyecto
-Programa del dashbord de streamlit elaborado Romero Estrada Daniel y Zamora Santiago Aldo Josue
+Programa del dashbord de streamlit elaborado Romero Estrada Daniel 
 
 Para ejecutar el que es off con la libreria talib 
 talib
