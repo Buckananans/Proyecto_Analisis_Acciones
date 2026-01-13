@@ -1,13 +1,28 @@
-# Proyecto
-Este repositorio contiene una aplicación desarrollada en Python con Streamlit para el análisis histórico de acciones (2010–2024). El objetivo es ofrecer una herramienta práctica para explorar el comportamiento de distintos tickers mediante visualizaciones interactivas, métricas descriptivas y análisis técnico, facilitando la revisión de tendencias, periodos de alta/baja volatilidad y patrones en el tiempo.
+# Análisis histórico de acciones (2010–2024)
 
-La app permite trabajar con tickers como AAPL, AMZN, GOOGL, MSFT y NVDA, mostrando información clave del mercado a nivel histórico, como precios (apertura, cierre, máximos, mínimos) y volumen, además de incluir herramientas de apoyo para un análisis más profundo.
+Proyecto de análisis bursátil desarrollado en **Python** para explorar el comportamiento histórico de acciones (aprox. 15 años).
+Incluye visualización de **precios y volumen**, análisis exploratorio y (según la versión) **indicadores técnicos** y análisis de patrones con **FFT**.
 
+---
 
-Para ejecutar el que es off con la libreria talib 
-talib
-correr el programa que dice off
-Descargar del navegador
-TA_Lib‑0.4.28‑cp310‑cp310‑win_amd64.whl
-instalar
-pip install TA_Lib‑0.4.28‑cp310‑cp310‑win_amd64.whl
+## Archivos
+
+- `Datos bursátiles de 15 años de NVDA AAPL M...` — Dataset / archivo principal con datos históricos.
+- `proyecto_off.py` — Script principal del proyecto (ejecución local/offline).
+- `proyecto_sintalib.py` — Versión alternativa **sin TA-Lib** (útil si no puedes instalar TA-Lib).
+- `requisitos.txt` — Dependencias del proyecto.
+- `README.md` — Este documento.
+
+---
+
+## Requisitos
+
+- **Local:** Python 3.9+ (recomendado) y pip.
+- **Nota:** si tienes problemas instalando **TA-Lib**, utiliza `proyecto_sintalib.py`.
+
+---
+
+## Instalación (Python)
+
+```bash
+pip install -r requisitos.txt
